@@ -1,0 +1,14 @@
+//Sum of individual digits of given no.
+#include<stdio.h>
+void main()
+{
+    int n,rem,rev=0,temp,sum=0;
+    scanf("%d",&n);
+    while(n) //always condition become true untill n value is 0
+    {
+        rem=n%10;
+        sum=sum+rem;
+        n=n/10;
+    }
+    printf("Sum of individual digits of a given no. is %d",sum);
+}
