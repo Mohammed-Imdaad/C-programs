@@ -1,0 +1,17 @@
+//Positive or Negative  - Trick 2 by using bitwise and operator(&)
+
+#include<stdio.h>
+void main()
+{
+    char a[100000];
+    scanf("%c",a);
+    if(a[0]&1==1)
+    {
+        printf("Given number is Negative");
+    }
+    else
+    {
+       printf("Given number is Positive");  
+    }
+    
+}
