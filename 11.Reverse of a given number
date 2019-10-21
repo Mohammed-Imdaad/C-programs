@@ -1,0 +1,14 @@
+//Reverse of a number
+#include<stdio.h>
+void main()
+{
+    int n,rem=0,rev;
+    scanf("%d",&n);
+    while(n) //always condition become true untill n value is 0
+    {
+        rem=n%10;
+        rev=rev*10+rem;
+        n=n/10;
+    }
+    printf("Reverse of a given number is %d",rev);
+}
