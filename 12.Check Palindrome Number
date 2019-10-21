@@ -1,0 +1,25 @@
+//Check wether the given number is palindrome or not 
+//palindrome means Reverse of number should be equal to the given number Eg: i/p - Given no. 141 o/p - 141
+
+#include<stdio.h>
+void main()
+{
+    int n,rem,rev=0,temp;
+    scanf("%d",&n);
+    temp=n; // store n value in temp as in n=n/10 line n values becomes 0 but finally v shold check the n value with Reverse number So store n value in temp.
+    while(n) //always condition become true untill n value is 0
+    {
+        rem=n%10;
+        rev=rev*10+rem;
+        n=n/10;
+    }
+    if(rev==temp)
+    {
+        printf("Given number is palindrome");
+    }
+    else
+    {
+        printf("given number is not palindrome");
+    }
+    
+}
