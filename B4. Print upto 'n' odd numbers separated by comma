@@ -3,15 +3,21 @@
 #include<stdio.h>
 void main()
 {
-    int n,a[10000],i,j;
+    int n,i,j;
+    printf("Enter n value");
     scanf("%d",&n);
-    for(j=1,i=1;j<n;i=i+2,j++)
+    printf("%d Odd values are",n);
+    for(j=1,i=1;j<=n;i=i+2,j++)
     {
-        printf("%d,",i);
+        printf("%d, ",i);
     }
-    if(j=n)
+     if(j=n)
     {
-        printf("%d",i);
+        printf("%d.",i);
     }
 }
     
+Output : 
+
+Enter n value5                                                                                                                              
+21 Odd values are1,3,5,7,9.
