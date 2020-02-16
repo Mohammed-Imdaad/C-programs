@@ -1,0 +1,19 @@
+// Print upto 'n' odd numbers i/p : 10 o/p : 1,3,5,7,9,11,13,15,17,19 
+
+#include<stdio.h>
+void main()
+{
+    int n,a[10000],i,j;
+    printf("Enter n value");
+    scanf("%d",&n);
+    printf("%d Odd values are",n);
+    for(j=1,i=1;j<=n;i=i+2,j++)
+    {
+        printf("%d ",i);
+    }
+}
+    
+Output : 
+
+Enter n value21                                                                                                                               
+21 Odd values are1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41  
