@@ -1,4 +1,4 @@
-//Print 'n' natural numbers separated by comma i/p:5 o/p:1,2,3,4,5
+//Print upto 'n' natural numbers separated by comma i/p:5 o/p:1,2,3,4,5
 #include<stdio.h>
 void main()
 {
