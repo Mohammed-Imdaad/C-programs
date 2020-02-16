@@ -1,0 +1,35 @@
+//After reading variours types of values in an array, Print only odd numbers from that array. 
+
+Same process for even numbers also just condition changes - a[i]%2==0 rest of program same as odd number program.
+
+#include<stdio.h>
+void main()
+{
+    int n,a[10000],i;
+    printf("Enter n value");
+    scanf("%d",&n);
+    printf("Enter %d values in an array\n",n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    printf("Odd numbers in an array are ");
+    for(i=0;i<n;i++)
+    {
+    if(a[i]%2!=0)
+    {
+        printf(" %d ",a[i]);
+    }
+    }
+}
+
+Output : 
+
+Enter n value5                                                                                                                                  
+Enter 5 values in an array                                                                                                                      
+12                                                                                                                                              
+33                                                                                                                                              
+55                                                                                                                                              
+77                                                                                                                                              
+99                                                                                                                                              
+Odd numbers in an array are  33  55  77  99                   
