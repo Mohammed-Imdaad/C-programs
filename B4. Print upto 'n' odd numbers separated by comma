@@ -1,4 +1,4 @@
-//Print 'n' odd numbers separated by comma i/p : 5 o/p : 1,3,5,7,9
+//Print upto 'n' odd numbers separated by comma i/p : 5 o/p : 1,3,5,7,9
 
 #include<stdio.h>
 void main()
