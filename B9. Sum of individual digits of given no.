@@ -12,3 +12,8 @@ void main()
     }
     printf("Sum of individual digits of a given no. is %d",sum);
 }
+
+Output :
+
+123456789
+Sum of individual digits of a given no. is 45
