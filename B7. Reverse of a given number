@@ -12,3 +12,8 @@ void main()
     }
     printf("Reverse of a given number is %d",rev);
 }
+
+output : 
+
+123
+Reverse of a numbers is 321
