@@ -12,3 +12,7 @@ void main()
     }
     printf("Count of a given number is %d",c);
 }
+
+OUTPUT :
+123456
+Count of a given number is 6
