@@ -23,3 +23,7 @@ void main()
         printf("%d is not a prime number",n);
     }
 }
+
+OUTPUT:
+5
+5 is a prime number
