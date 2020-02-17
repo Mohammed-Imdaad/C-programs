@@ -1,0 +1,23 @@
+//Print upto 'n' even numbers separated by comma i/p : 5 o/p : 2,4,6,8,10.
+
+#include<stdio.h>
+void main()
+{
+    int n,i,j;
+    printf("Enter n value");
+    scanf("%d",&n);
+    printf("%d even values are",n);
+    for(j=1,i=0;j<=n;i=i+2,j++)
+    {
+        printf("%d, ",i);
+    }
+     if(j=n)
+    {
+        printf("%d.",i);
+    }
+}
+    
+Output : 
+
+Enter n value5                                                                                                                              
+5 even values are2.4.6.8.10.
