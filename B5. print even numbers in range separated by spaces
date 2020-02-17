@@ -1,4 +1,4 @@
-//print even numbers upto given range separated by spaces
+//print even numbers given range separated by spaces
 
 #include<stdio.h>
 void main()
