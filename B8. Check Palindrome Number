@@ -23,3 +23,9 @@ void main()
     }
     
 }
+
+Output :
+
+141
+
+Given number is palindrome
