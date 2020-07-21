@@ -31,10 +31,10 @@ void main()
     }
     if(arm==temp)
     {
-        printf("%d is a palindrome",temp);
+        printf("%d is a armstrong",temp);
     }
     else
     {
-        printf("%d is a not palindrome",temp);
+        printf("%d is a not armstrong",temp);
     }
 }
