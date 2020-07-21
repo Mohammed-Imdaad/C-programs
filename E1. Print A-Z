@@ -1,0 +1,15 @@
+// Print alphabets A-z 
+
+#include <stdio.h>
+void main()
+{
+    char c;
+    for (c = 'A'; c <= 'Z'; ++c)
+    {
+        printf("%c ", c); 
+    }
+}
+
+O/p:
+
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
